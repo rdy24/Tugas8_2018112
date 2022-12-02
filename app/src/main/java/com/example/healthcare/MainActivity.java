@@ -20,6 +20,7 @@ import android.widget.Toast;
 
 import com.example.healthcare.alarm.AlarmReceiver;
 import com.example.healthcare.databinding.ActivityMainBinding;
+import com.example.healthcare.sqllite.DisplayData;
 import com.google.android.material.navigation.NavigationView;
 import com.google.android.material.timepicker.MaterialTimePicker;
 import com.google.android.material.timepicker.TimeFormat;
@@ -74,6 +75,10 @@ public class MainActivity extends AppCompatActivity {
           case R.id.nav_profile:
             Intent intent3 = new Intent(MainActivity.this, ProfileActivity.class);
             startActivity(intent3);
+            break;
+          case R.id.nav_sql:
+            Intent intent4 = new Intent(MainActivity.this, DisplayData.class);
+            startActivity(intent4);
             break;
         }
         return true;

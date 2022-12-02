@@ -19,5 +19,9 @@
             android:id="@+id/nav_profile"
             android:icon="@drawable/ic_baseline_perm_contact_calendar_24"
             android:title="Profile" />
+        <item
+            android:id="@+id/nav_sql"
+            android:icon="@drawable/ic_baseline_data_array_24"
+            android:title="SQL Lite" />
     </group>
 </menu>
